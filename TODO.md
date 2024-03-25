@@ -8,3 +8,4 @@
 * gestire la sincronizzazione con : 
   * argocd 
   * github actions
+  *
