@@ -5,6 +5,7 @@ metadata:
   labels:
     app: spring-security
   name: spring-security
+  namespace: spring-security
 spec:
   replicas: 1
   selector:
