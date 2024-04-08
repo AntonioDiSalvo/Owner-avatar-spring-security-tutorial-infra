@@ -19,7 +19,7 @@ spec:
         app: spring-security
     spec:
       containers:
-      - image: disalvoantonio/social:0.0.2-SNAPSHOT
+      - image: disalvoantonio/social:0.0.1-SNAPSHOT
         name: social
         resources: {}
         env:
