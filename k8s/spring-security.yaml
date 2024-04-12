@@ -19,12 +19,12 @@ spec:
         app: spring-security
     spec:
       containers:
-      - image: disalvoantonio/social:0.0.1-SNAPSHOT
-        name: social
-        resources: {}
-        env:
-          - name: githubClientId
-            value: 98f1c204c75bef6de647
-          - name: googleClientId
-            value: 985966789883-9bf2eleno3fsq1o9r00uqva2tg8ksokg.apps.googleusercontent.com
+        - image: disalvoantonio/social:testing
+          name: social
+          resources: {}
+          env:
+            - name: githubClientId
+              value: 98f1c204c75bef6de647
+            - name: googleClientId
+              value: 985966789883-9bf2eleno3fsq1o9r00uqva2tg8ksokg.apps.googleusercontent.com
 status: {}
